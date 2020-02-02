@@ -12,6 +12,9 @@ from keras.models import load_model
 model = load_model('emotion_model.h5')
 #model= model.load_weights(filename)
 
+#Facial Expressions
+Expressions={0:"Angry",1:"Disgust",2:"Fear",3:"Happy",4:"Sad",5:"Surprise",6:"Neutral"}
+
 def make_prediction(unknown):
     unknown=cv2.resize(unknown,(48,48))
     unknown=unknown/255.0
