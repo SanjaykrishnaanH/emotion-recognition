@@ -6,13 +6,13 @@ This dataset is taken from kaggle [dataset link ..plese click here](https://driv
 
 # types of emotions recognised : 
 Expressions=
-0:**Angry**
-1:**Disgust**
-2:**Fear**
-3:**Happy**
-4:**Sad**
-5:**Surprise**
-6:**Neutral**
+*0:**Angry**
+*1:**Disgust**
+-2:**Fear**
+-3:**Happy**
+-4:**Sad**
+-5:**Surprise**
+-6:**Neutral**
 
 # procedure to use the code :
 -The model was pre trained using the cnn model present in **emotion_main.py** file and model , weights were saved to their respective files .
